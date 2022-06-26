@@ -79,8 +79,8 @@ __All assignments should be hosted on github pages and links submitted to google
 
 This is the coin side that will be used. They can be found in the __assets/images__ folder
 
-![Heads](./assets/images/head-side.png)
+![Heads](./assets/img/coinhead.jpeg)
 
-![Heads](./assets/images/tail-side.png)
+![Heads](./assets/img/cointails.jpeg)
 
 Happy Coding :)
