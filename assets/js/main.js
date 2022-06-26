@@ -54,10 +54,10 @@ const evaluate = () => {
      calculate()
   }
 		if (chosen == outcome && compChosen !== outcome) {
-      console.log("You win");
+      console.log("You emerged the winner");
       yourScore++
 		} else if (chosen !== outcome && compChosen === outcome) {
-      console.log("Comp wins");
+      console.log("Computer has won");
       compScore++
 		} else if (chosen === outcome && compChosen === outcome) {
 			console.log("You tie");
@@ -65,7 +65,7 @@ const evaluate = () => {
 }
 
 const calculate = () => {
-  yourScore > compScore ? alert('you won') : compScore > yourScore ? alert('comp won') : alert('you tie')
+  yourScore > compScore ? alert('You Won the game') : compScore > yourScore ? alert('Computer did win') : alert('You both tied')
   location.reload()
 }
 
